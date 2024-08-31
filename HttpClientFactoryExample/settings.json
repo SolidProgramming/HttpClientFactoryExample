@@ -1,0 +1,10 @@
+{
+  "OtherSettings": {
+    "Something": true
+  },
+  "Proxy": {
+    "URI": "http://51.15.11.160:3128",
+    "Username": "",
+    "Password": ""
+  }
+}
