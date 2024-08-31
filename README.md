@@ -7,7 +7,6 @@ HttpClient? noProxyClient = httpClientFactory.CreateHttpClient<Program>();
 if (!successNoProxy)
 {
     Console.WriteLine($"{DateTime.Now} | HttpClient could not retrieve WAN IP Address. Shutting down...");
-    return;
 }
 else
 {
