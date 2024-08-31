@@ -25,8 +25,6 @@ HttpClient? proxyClient = httpClientFactory.CreateHttpClient<Program>(proxy);
 if (!successProxyClient)
 {
     Console.WriteLine($"{DateTime.Now} | HttpClient could not retrieve WAN IP Address. Shutting down...");
-    Console.ReadKey();
-    return;
 }
 else
 {
